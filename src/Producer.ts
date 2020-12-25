@@ -239,7 +239,7 @@ export class Producer extends EnhancedEventEmitter
 
 		this._closed = true;
 
-		this._destroyTrack();
+		//this._destroyTrack();
 
 		this.emit('@close');
 
